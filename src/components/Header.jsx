@@ -24,7 +24,7 @@ export default function Header() {
       {/* Navegación principal */}
       <div className="h-20 w-full max-w-[1280px] mx-auto px-gutter flex items-center justify-between">
         <Link className="flex items-center gap-space-sm" to="/">
-          <img src={LOGO_URL} alt="Básculas la Mejor" className="h-12 w-auto object-contain py-0.5" />
+          <img src={LOGO_URL} alt="Básculas la Mejor" className="h-18 w-auto object-contain py-0.5" />
         </Link>
 
         <nav className="hidden xl:flex items-center gap-space-md font-label-md text-label-md">
